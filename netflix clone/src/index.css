@@ -1,0 +1,50 @@
+.home
+{
+  background-color: black;
+  height: 100%;
+  width: 100%;  
+}
+
+/* *
+{
+  background-color: black;
+} */
+.gallery
+{
+  display: grid;
+  grid-template-columns:auto auto auto max-content;
+  
+  padding: 0px 20px;  
+}
+
+.card:hover
+{
+  transform: scale(1.05);
+}
+
+
+.movies{
+  margin-top: 76px;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+.tv{
+  margin-top: 76px;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+
+.nav-item
+{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100px;
+}
+
+h2{
+  color: white !important;
+  font-size: 45px !important;
+  padding: 40px 40px;
+}
